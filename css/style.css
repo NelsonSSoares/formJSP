@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 40px;  
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/fundoCadastro.jpg);
+    background-size: cover;
+}
+
+:-ms-input-placeholder {
+  color: #3e3e46;
+  padding-left: 10px;
+  opacity: 1;
+}
+
+main{
+    background-color: rgb(31, 29, 29);
+    width: 400px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;    
+}
+
+main h1 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main form {
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+}
+
+main label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+main form input {
+    padding-left: 10px;
+    background: #babac9;
+    width: 300px;
+    height: 30px;    
+    margin-top: 5px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+    color: whitesmoke;
+    border-radius: 32px;
+    background: linear-gradient(blueviolet, #1c8597);;
+    font-size: 18px;
+}
